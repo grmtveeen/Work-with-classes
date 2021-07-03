@@ -1,4 +1,6 @@
 # Work-with-classes
+There are 4 different but similar projects!
+
 The described class is a date and time class. You can add dates with each other, add a date with a number of days, print the number of seconds/days that have passed since January 1, etc. (read files README) Examples of class inheritance and template class are given.
 1. "Class Date" is the basic "classical" class.
 2. "Class Date (template)" is the same class that "Class Date" but template.
