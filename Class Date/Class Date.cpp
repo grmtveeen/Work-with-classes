@@ -190,7 +190,7 @@ int main (void){
     A=C+1000;   //Overloaded operator +
     cout << "Operator +  (A=C+(number of days))   March 20, 2020 + 1000 days: " << A <<endl;
     if(A!=B) cout << "If you're reading this, then A! = B, the method works." << endl;   // Overloaded operator !=
-    if(F==G) cout << "If you're reading this, then A = B, the method works." << endl;    // Overloaded operator ==
+    if(F==G) cout << "If you're reading this, then A == B, the method works." << endl;    // Overloaded operator ==
 
     A.input_day(15);    //The ability to change only the day
     A.input_month(5);   //The ability to change only the month
