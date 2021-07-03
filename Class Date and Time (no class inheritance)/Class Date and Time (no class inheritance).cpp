@@ -2,7 +2,7 @@
 
 #include <iostream>
 using namespace std;
-#define SPD 86400 //Seconds per day
+#define SPD 86400   //Seconds per day
 
 class date {
     private:
@@ -373,7 +373,7 @@ int main (void){
     cout << K << endl;      //Output operator
     cout << "It's check operator copy " << H << endl;
 
-    K=A;                    //Check operator equals
+    K = A;                    //Check operator equals
     cout<<"operator= " <<K << '\n' << endl;
 
     int sec = C.seconds(); //Check method seconds
@@ -394,7 +394,7 @@ int main (void){
     cout <<"operator+ " << A << '\n' << endl;
 
     C+=1;           //Overloaded operator +=
-    cout <<"operator+ (int)  31.12.1999 23:59:59 + 1sec equally "<< C << endl; //
+    cout <<"operator+ (int)  31.12.1999 23:59:59 + 1 (sec) equally "<< C << endl; //
     C+=1000;        //Overloaded operator +=
     cout << "C+=1000 "<<C << endl;
     C+=100000;      //Overloaded operator +=
